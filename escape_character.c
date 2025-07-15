@@ -24,6 +24,7 @@ int main (int argc, char *argv[]) {
 
     if (argc < 2) {
         printf ("Usage\n %s filename.txt\n", argv[0]);
+        return -1;
     }
 
     else if (argc == 2) {
